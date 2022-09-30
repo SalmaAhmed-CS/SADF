@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+
+     <link rel="stylesheet" href=" {% static 'css/index.css' %}">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="background-image = url({% static 'img/bg-texture.png'%}) ">
+
+<div  class="container" >
+     <h1>Enter the Features </h1>
+<form  action="" method="post">
+      {%csrf_token%}
+     <label for="c1"># of Sentence</label>
+     <input  type='number' placeholder="c1 " name="c1" id="c1">
+     <br>
+      <label for="c2"># of Word in Sentence</label>
+     <input type='number' placeholder="c2 " name="c2" id="c2">
+      <br>
+      <label for="c1">E_word</label>
+     <input type='number' placeholder="c1 " name="c3" id="c3">
+      <br>
+      <label for="c1">S_ind</label>
+     <input type='number' placeholder="c1 " name="c4" id="c4">
+      <br>
+      <label for="c1">E_ind</label>
+     <input type='number' placeholder="c1 " name="c5" id="c5">
+      <br>
+      <label for="c1">Parent</label>
+     <input type='number' placeholder="c1 " name="c6" id="c6">
+      <br>
+      <label for="c1">St_POS</label>
+     <input type='number' placeholder="c1 " name="c7" id="c7">
+      <br>
+      <label for="c1">Short_POS</label>
+     <input type='number' placeholder="c1 " name="c8" id="c8">
+      <br>
+      <label for="c1">Has_Almasdar</label>
+     <input type='number' placeholder="c1 " name="c9" id="c9">
+      <br>
+      <label for="c1">Is_Punc</label>
+     <input type='number' placeholder="c1 " name="c10" id="c10">
+      <br>
+      <label for="c1">Is_Punc_Splitting</label>
+     <input type='number' placeholder="c1 " name="c11" id="c11">
+      <br>
+      <label for="c1">Named entity</label>
+     <input type='number' placeholder="c1 " name="c12" id="c12">
+      <br>
+      <label for="c1">Punc_Aft</label>
+     <input type='number' placeholder="c1 " name="c13" id="c13">
+      <br>
+      <label for="c1">Punc_Bef</label>
+     <input type='number' placeholder="c1 " name="c14" id="c14">
+      <br>
+      <label for="c1">Is_F_Word</label>
+     <input type='number' placeholder="c1 " name="c15" id="c15">
+      <br>
+      <label for="c1">Is_S_Word</label>
+     <input type='number' placeholder="c1 " name="c16" id="c16">
+      <br>
+      <label for="c1">Is_T_Word</label>
+     <input type='number' placeholder="c1 " name="c17" id="c17">
+      <br>
+      <label for="c1">Word_Bef</label>
+     <input type='number' placeholder="c1 " name="c18" id="c18">
+      <br>
+      <label for="c1">Word_Aft</label>
+     <input type='number' placeholder="c1 " name="c19" id="c19">
+      <br>
+      <label for="c1">POS_Bef_St</label>
+     <input type='number' placeholder="c1 " name="c20" id="c20">
+      <br>
+      <label for="c1">POS_Bef_Short</label>
+     <input type='number' placeholder="c1 " name="c21" id="c21">
+      <br>
+      <label for="c1">POS_Aft_St</label>
+     <input type='number' placeholder="c1 " name="c22" id="c22">
+      <br>
+      <label for="c1">POS_Aft_Short</label>
+     <input type='number' placeholder="c1 " name="c23" id="c23">
+      <br>
+      <label for="c1">Is_Bef_3_Words_Punc</label>
+     <input type='number' placeholder="c1 " name="c24" id="c24">
+      <br>
+      <label for="c1">Is_Aft_3_Words_Punc</label>
+     <input type='number' placeholder="c1 " name="c25" id="c25">
+      <br>
+      <label for="c1">Is_discourse_conn_LADTB</label>
+     <input type='number' placeholder="c1 " name="c26" id="c26">
+      <br>
+      <label for="c1">Is_potential_conn</label>
+     <input type='number' placeholder="c1 " name="c27" id="c27">
+      <br>
+      <label for="c1">Is_potential_attribution</label>
+     <input type='number' placeholder="c1 " name="c28" id="c28">
+      <br>
+      <label for="c1">Conn_Type</label>
+     <input type='number' placeholder="c1 " name="c29" id="c29">
+      <br>
+      <label for="c1">Args_Order</label>
+     <input type='number' placeholder="c1 " name="c30" id="c30">
+     <br>
+    <button type="submit" class="btn" >submit</button>
+
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>prodict</title>
+    <link rel="stylesheet" href=" {% static 'css/index.css' %}">
+</head>
+<body >
+<div class="container">
+
+       <h2> Boundary : {{prodict}}</h2>
+        <br>
+       <button type="submit" class="btn" ><a  href="{%url 'index' %}">back</a></button>
+
+
+
+</div>
+</body>
+</html>
